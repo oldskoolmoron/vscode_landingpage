@@ -16,7 +16,7 @@ This project is a static front-end clone of the Visual Studio Code (VSCode) land
 
 - **HTML5**: For structuring the content
 - **CSS3**: For styling and layout
-  - Flexbox and Grid (optional depending on what you used)
+  - Flexbox and Grid
   
 > **Note:** JavaScript has not been used in this version, and responsiveness is still to be implemented.
 
@@ -34,4 +34,4 @@ This project is a static front-end clone of the Visual Studio Code (VSCode) land
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/oldskoolmoron/vscode-landing-page.git
+   git clone https://github.com/oldskoolmoron/vscode_landingpage.git
