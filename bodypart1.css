@@ -1,0 +1,84 @@
+.simple-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9BA3B4;
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+.text-in-center{
+    margin-left: 400px;
+}
+.cross-btn{
+    margin-left:500px;
+    margin-right: 10px;
+    font-size: 15px;  
+}
+.body-section-part1{
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    background-color:#131313;
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 70px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.left-part1{
+    color: white;
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 40px;
+}
+.another-btn{
+    font-size: 17px;
+    border-radius: 5px;
+    border: #0078D4;
+    padding: 20px 30px;
+    background-color: #0078D4;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+}
+.text-free{
+    display: flex;
+    justify-content: center;
+    background-color: #131313;
+    color:#9BA3B4; ;
+    align-items: center;
+    height: 40px; /* Adjust based on your design */
+    width: 350px; 
+    border-style: solid;
+    border-width:1px;/* Adjust based on your design */
+    border-color:rgb(255,255,255,0.15);
+    border-radius: 20px;
+}
+.plain-text{
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 1.1px;
+    font-weight: 450;
+    font-size: 55px;
+    line-height:40px;
+}
+.link-and-text{
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-size: 14px;
+    color: #9BA3B4;
+}
+.link-and-text2{
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    letter-spacing: 0px;
+    font-size: 11px;
+    color: #9BA3B4;
+}

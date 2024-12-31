@@ -1,0 +1,83 @@
+body {
+    background-color:white;
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    background-color:white;
+    background-color:#131313;
+}
+
+.head-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color:#131313;
+    position: sticky;
+    top: 0;
+    border-bottom:1px solid transparent;
+    z-index: 1000;
+    transition: border-color 0.3s ease;
+}
+/* This rule applies when the navbar is scrolled */
+.head-sec.scrolled {
+    border-bottom-color: rgba(255, 255, 255, 0.731);
+}
+
+.left-sec{
+    display: flex;
+    align-items: center;
+}
+.item1{
+    margin-left: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color:#9BA3B4;
+}
+.vs-logo{
+    margin-left: 80px;
+}
+.right-sec{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+.search-bar input[type="text"] {
+    background-color: #131313;
+    padding-left: 33px; /* Adjust padding to make space for the image */
+    height: 30px; /* Adjust based on your design */
+    width: 170px; 
+    border-style: solid;
+    border-width:1px;/* Adjust based on your design */
+    border-color:rgb(255,255,255,0.15);
+    border-radius: 4px;/* Optional: for rounded corners */
+}
+.search-bar input[type="text"]::placeholder {
+    color:#9BA3B4; /* Change this color to whatever you like */
+}
+
+.search-bar img {
+    position: absolute;
+    left: 10px; /* Adjust the position of the image inside the search bar */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px; /* Adjust the size of the image */
+    height: 16px;
+    pointer-events: none; /* Ensures the image doesn't interfere with input */
+}
+.download-btn{
+    font-size: 17px;
+    margin-right: 80px;
+    margin-left: 8px;
+    border-radius: 5px;
+    border: #0078D4;
+    padding: 8px 15px;
+    background-color: #0078D4;
+    color: #ffffff;
+    cursor: pointer;
+}

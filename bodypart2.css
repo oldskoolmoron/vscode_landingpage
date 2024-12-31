@@ -1,0 +1,17 @@
+.middle-part{
+    background-color: black;
+    height: 450px;
+    color:white;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.middle-class-left-part{
+    width: 50%;
+    align-items: center;
+
+    padding: 30px;
+}
